@@ -59,8 +59,6 @@ git clone https://github.com/nemanjam/traefik-proxy
 # create credentials
 echo $(htpasswd -nb <username> <password>)
 
-echo $(htpasswd -nb admin BorkoStefanovic)
-
 # if htpasswd not defined
 sudo apt-get install apache2-utils
 
